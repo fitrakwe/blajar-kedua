@@ -1,0 +1,116 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: 'Noto Serif Display', serif;
+}
+title{
+    color:crimson ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 90px;
+    width: 100%;
+    background-color:rgba(229, 33, 101, 0.9);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+}
+.header-left img{
+    width: 65px;
+    height: auto;
+}
+.header-left{
+    transform: translate(0.5rem,1rem);
+    float: left ;      
+}
+.header-right{
+    float: right;
+    transition: 0.5s;
+    background-color: rgba(3,3,3,0.3)
+}
+.header-right a{
+    line-height: 90px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.header-mid ul{
+    line-height: 90px;
+   color:white;
+   display: flex;
+   justify-content: center;
+   font-weight: bolder;
+   font-size: 25px;
+   font-family: 'Averia Serif Libre', cursive; 
+}
+.li-header{
+    display: inline-block;
+    padding: 0 25px;
+}
+.li-header:hover{
+    background-image:radial-gradient(white, #e5265e);
+    border-radius: 10px;
+}
+.header-list li{
+    list-style: none;
+    margin-right: 35px;
+}
+.header-right:hover{
+    background-color: rgba(141, 138, 138, 0.5);
+}
+.top-wrapper {
+    padding: 100px 0 110px 0;
+    background-color: #0d1137;
+    text-align: center;
+    background-position: center;
+    color:white;
+}
+.title-section h1{
+    font-size: 48px;
+    text-align: left;
+    color:white;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.title-section p{
+    padding-top: 90px;
+    margin-bottom: 42px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.cards{
+    background-image: linear-gradient(to bottom, #0d1137, #482354, #833568, #be4d70, #f16f6f);
+    font-weight:bold;
+    font-size: 20px;
+    text-align:justify;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.card-information img{
+    width: 2600px;
+    height: 400px;
+    border-radius: 20px;
+}
+.card-information p{
+    margin-left: 100px;
+    margin-top:20px;
+}
+.card-information{
+    display: flex;
+    justify-content: flex-start;
+    height: 500px;
+    border-bottom: 2px solid black;
+}
+.cadillac{
+    color:#7b2739;
+}
